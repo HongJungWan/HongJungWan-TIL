@@ -31,8 +31,6 @@
 
 ## Maven 설정
 
----
-
 스프링 부트 환경에서는 Mockito는 기본으로 `spring-boot-starter-test` 의존성에 같이 포함되어 있다. 만약 `spring-boot-starter-test`가 없다면 `mockito-junit-jupiter`와 `mockito-core` 라이브러리를 추가해 주면 된다.
 
 ```java
@@ -59,8 +57,6 @@
 <br/><br/>
 
 ## Mock 객체
-
----
 
 `Mock 객체`를 만드는 방법은 메서드를 통한 방법과 어노테이션을 이용하는 방법이 있다.
 
@@ -112,8 +108,6 @@ class StudyServiceTest {
 <br/><br/>
 
 ## Mock 객체 Stubbing
-
----
 
 `Mock 객체`를 생성만 한다면 빈 껍데기이기 때문에 제대로 동작을 하지 않는다.
 모든 `Mock 객체`의 기본적인 행동은 다음과 같다.
@@ -200,8 +194,6 @@ class StudyServiceTest {
 <br/><br/>
 
 ## Mock 객체 확인
-
----
 
 스터디 비즈니스 로직이 있는 StudyService 객체가 있고, 스터디를 저장하고 특정 회원을 해당 강의 강사로 등록하는 createNewStudy 메서드가 있다고 하자.
 
@@ -314,8 +306,6 @@ public class StudyServiceTestForPosting {
 <br/><br/>
 
 ## Mockito BDD Style API
-
----
 
 ### BDD(Behavior Driven Development)
 
