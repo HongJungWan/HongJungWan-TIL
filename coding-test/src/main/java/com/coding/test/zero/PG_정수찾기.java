@@ -18,15 +18,3 @@ public class PG_정수찾기 {
                 .anyMatch(e -> e == n) ? 1 : 0;
     }
 }
-
-//    private static final int ANSWER_CONDITION_ZERO = 0;
-//    private static final int ANSWER_CONDITION_ONE = 1;
-
-//    public static int solution(int[] num_list, int n) {
-//        for (int temp : num_list) {
-//            if (temp == n) {
-//                return ANSWER_CONDITION_ONE;
-//            }
-//        }
-//        return ANSWER_CONDITION_ZERO;
-//    }
