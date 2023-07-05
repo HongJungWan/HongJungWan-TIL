@@ -1,6 +1,10 @@
 # HongJungWan-TIL
 
-🌱 꽤 괜찮은 개발자가 되어가는 과정
+### 🌱 꽤 괜찮은 개발자가 되어가는 과정
+
+<br/>
+
+### ♻ 누구나 열심히 한다, 잘하자.
 
 <br/>
 
@@ -24,7 +28,7 @@
 
 #### [Vue.js 찍먹 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B0%8D%EB%A8%B9_%231.md)
 
-#### [Vue.js 찍먹 #2]()
+#### [Vue.js 사람이 되어가는 중 #2](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%82%AC%EB%9E%8C%EC%9D%B4_%EB%90%98%EC%96%B4%EA%B0%80%EB%8A%94_%EC%A4%91_%232.md)
 
 <br/>
 
