@@ -321,16 +321,86 @@ apple2...;
 
 * 컴포넌트를 사용하면 UI를 재사용 가능한 일부분으로 분할하고, 각 부분을 개별적으로 다룰 수 있다.
 
+<br><br>
+
+### 1. `컴포넌트 정의`
+
+* 빌드 방식을 사용할 때 일반적으로 싱글 파일 컴포넌트(줄여서 SFC)라고 하는 <br> `.vue 확장자`를 사용하는 전용 파일에 각 Vue 컴포넌트를 정의
+
 <br>
 
+ButtonCounter.vue
+```vue
+<script>
+export default {
+  data() {
+    return {
+      count: 0
+    }
+  }
+}
+</script>
 
+<template>
+  <button @click="count++">당신은 {{ count }} 번 클릭했습니다.</button>
+</template>
+```
 
+<br><br>
 
+### 2. `컴포넌트 사용`
 
+* 자식 컴포넌트를 사용하려면 부모 컴포넌트에서 import 해야 한다.
+
+<br>
+
+```vue
+<script>
+import ButtonCounter from './ButtonCounter.vue'
+
+export default {
+  components: {
+    ButtonCounter
+  }
+}
+</script>
+
+<template>
+  <h1>아래에 자식 컴포넌트가 있습니다.</h1>
+  <ButtonCounter/>
+</template>
+```
 
 <br><br><br>
 
 ## props
+
+* 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달하는 방법
+
+<br>
+
+자식 컴포넌트
+```vue
+<!-- BlogPost.vue -->
+<script>
+export default {
+  props: ['title']
+}
+</script>
+
+<template>
+  <h4>{{ title }}</h4>
+</template>
+```
+
+<br>
+
+부모 컴포넌트
+```vue
+<BlogPost title="Vue와 함께한 나의 여행" />
+<BlogPost title="Vue로 블로깅하기" />
+<BlogPost title="Vue가 재미있는 이유" />
+```
 
 <br><br><br>
 
