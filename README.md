@@ -30,7 +30,7 @@
 
 #### [Vue.js 찍먹 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B0%8D%EB%A8%B9_%231.md)
 
-#### [Vue.js 사람이 되어가는 중 #2](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%82%AC%EB%9E%8C%EC%9D%B4_%EB%90%98%EC%96%B4%EA%B0%80%EB%8A%94_%EC%A4%91_%232.md)
+#### [Vue.js 문법 총 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B4%9D_%EC%A0%95%EB%A6%AC.md)
 
 <br>
 
