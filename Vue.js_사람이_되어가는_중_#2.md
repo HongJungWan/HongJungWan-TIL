@@ -107,7 +107,7 @@ data() {
 
 * `v-for`를 객체의 속성을 반복하는 데 사용할 수 있다.
 
-<br/>
+<br>
 
 ```object
 data() {
@@ -121,7 +121,7 @@ data() {
 }
 ```
 
-<br/>
+<br>
 
 ```vue
 <ul>
@@ -131,7 +131,7 @@ data() {
 </ul>
 ```
 
-<br/><br/>
+<br><br>
 
 속성명을 가리키는 두 번째 별칭를 사용할 수도 있다.
 
@@ -141,7 +141,7 @@ data() {
 </li>
 ```
 
-<br/>
+<br>
 
 인덱스를 가리키는 세 번째 별칭를 사용할 수도 있다.
 
@@ -151,25 +151,25 @@ data() {
 </li>
 ```
 
-<br/><br/>
+<br><br>
 
 ### 숫자 범위에 v-for 사용
 
 * `v-for`는 정수를 사용할 수도 있다.
 
-<br/>
+<br>
 
 ```vue
 <span v-for="n in 10">{{ n }}</span>
 ```
 
-<br/><br/>
+<br><br>
 
 ### `<template>`에서 v-for 사용
 
 * `v-if`와 유사하게 `<template>` 태그에 `v-for`를 사용할 수 있다.
 
-<br/>
+<br>
 
 ```vue
 <ul>
@@ -180,21 +180,140 @@ data() {
 </ul>
 ```
 
-<br/><br/>
+<br><br>
 
 ### key를 통한 상태유지
 
-<br/><br/>
+* Vue가 각 노드의 ID를 추적하고 기존 엘리먼트를 재사용하고 재정렬할 수 있도록, <br> 각 항목에 대해 고유한 key 속성을 제공해야 한다.
+
+<br>
+
+```vue
+<div v-for="item in items" :key="item.id">
+  <!-- 내용 -->
+</div>
+```
+
+<br>
+
+* 기본 리스트 렌더링 동작을 통해 성능 향샹을 꾀하는 경우가 아니라면, 
+  * `v-for`는 key 속성과 함께 사용하는 것을 권장한다.
+
+<br><br>
 
 ### 컴포넌트에 v-for 사용
 
+* 컴포넌트에는 자체적으로 구분된 범위가 있기 때문에 데이터를 자동으로 전달하지 않는다. 
+  * 반복된 데이터를 컴포넌트에 전달하려면 props를 사용해야 한다.
+
+<br/>
+
+```vue
+<MyComponent
+  v-for="(item, index) in items"
+  :item="item"
+  :index="index"
+  :key="item.id"
+/>
+```
+
 <br><br><br>
 
-## Form 입력 바인딩, input (v-model)
+## Form 입력 바인딩, input (`v-model`)
+
+<br>
+
+### 텍스트
+```vue
+<p>메세지: {{ message }}</p>
+<input v-model="message" placeholder="메세지 입력하기" />
+```
+
+<br>
+
+### 여러 줄 텍스트
+
+```vue
+<span>여러 줄 메세지:</span>
+<p style="white-space: pre-line;">{{ message }}</p>
+<textarea v-model="message" placeholder="여러 줄을 추가해보세요"></textarea>
+```
+
+<br>
+
+### 체크박스
+
+```vue
+<input type="checkbox" id="checkbox" v-model="checked" />
+<label for="checkbox">{{ checked }}</label>
+```
+
+<br>
+
+### 라디오
+
+```vue
+<div>선택한 것: {{ picked }}</div>
+
+<input type="radio" id="one" value="하나" v-model="picked" />
+<label for="one">하나</label>
+
+<input type="radio" id="two" value="둘" v-model="picked" />
+<label for="two">둘</label>
+```
+
+<br>
+
+### 셀렉트
+
+```vue
+<div>선택됨: {{ selected }}</div>
+
+<select v-model="selected">
+  <option disabled value="">다음 중 하나를 선택하세요</option>
+  <option>가</option>
+  <option>나</option>
+  <option>다</option>
+</select>
+```
 
 <br><br><br>
 
-## import/export
+## import / export
+
+1. 어떤 data를 갖고 있는 .js 파일이 있다고 가정해보자.
+2. export default를 사용하면 해당 변수가 export 가능해진다.
+3. 다른 .js or App.vue 파일을 보면 import 해서 사용할 수 있다.
+
+
+* 여러개를 export 할 수 도 있다.
+* {}를 사용해서 import 해서 쓰면된다.
+
+<br>
+
+```vue
+var apple = 10;
+
+export default apple
+```
+
+```vue
+import apple from './assets/post.js;
+
+apple...;
+```
+
+<br>
+
+```vue
+export {apple, apple2}
+```
+
+```vue
+import {apple, apple2} from './assets/post.js';
+
+apple2...;
+```
 
 <br><br><br>
 
@@ -203,6 +322,9 @@ data() {
 * 컴포넌트를 사용하면 UI를 재사용 가능한 일부분으로 분할하고, 각 부분을 개별적으로 다룰 수 있다.
 
 <br>
+
+
+
 
 
 
