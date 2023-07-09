@@ -22,12 +22,13 @@
 
 ## Front-End
 
-| 제목  |
-|-----|
-|[Vue.js 찍먹 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B0%8D%EB%A8%B9_%231.md)|
-|[Vue.js 문법 총 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B4%9D_%EC%A0%95%EB%A6%AC.md)|
-|🐱‍💻 |
-|[AJAX(Asynchronous JavaScript and XML) - Axios #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/ajax_axios_%231.md)|
+| 제목                                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------------|
+| [Vue.js 찍먹 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B0%8D%EB%A8%B9_%231.md)                     |
+| [Vue.js 문법 총 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Vue.js_%EC%B4%9D_%EC%A0%95%EB%A6%AC.md)              |
+| 🐱‍💻                                                                                                                          |
+| [AJAX(Asynchronous JavaScript and XML) - Axios #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/ajax_axios_%231.md) |
+| [ES6 첫 발자국 & Vue.js 한 숟가락](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/ES6_%EC%B2%AB_%EB%B0%9C%EC%9E%90%EA%B5%AD_Vue.js_%ED%95%9C_%EC%88%9F%EA%B0%80%EB%9D%BD.md)|
 
 <br>
 
