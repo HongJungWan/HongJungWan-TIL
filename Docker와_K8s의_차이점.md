@@ -1,4 +1,4 @@
-## Docker와 K8s의 차이점
+# Docker와 K8s의 차이점
 
 <br>
 
