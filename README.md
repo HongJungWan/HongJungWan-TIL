@@ -14,9 +14,11 @@
 | [MSA(Micro Service Architecture)를 이해하기 위한 #2](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MSA%EB%A5%BC_%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0_%EC%9C%84%ED%95%9C_%232.md) |
 | 🐱‍💻                                                                                                                                                                                |
 | [Azure를 이해하기 위한 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Azure%EB%A5%BC_%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0_%EC%9C%84%ED%95%9C_%231.md)                         |
-| 🐱‍💻                                                                                                                                                                                   |
+| 🐱‍💻                                                                                                                                                                                |
 | [가상화 이해하기 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EA%B0%80%EC%83%81%ED%99%94_%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0_%231.md)                                     |
+| 🐱‍💻                                                                                                                                                                                |
 | [docker & k8s - 간단한 개념](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Docker%EC%99%80_K8s%EC%9D%98_%EC%B0%A8%EC%9D%B4%EC%A0%90.md)                                        |
+| [쉽게 시작하는 k8s(v1.25)](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%89%BD%EA%B2%8C_%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94_k8s(v1.25).md)                                                                                                                                                               |
 
 <br>
 

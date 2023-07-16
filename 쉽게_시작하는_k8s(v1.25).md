@@ -8,11 +8,11 @@
 
 <br>
 
-<img src="../../OneDrive/사진/스크린샷/1.1/1.png" width="500">
+<img src="1.png" width="500">
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/1.1/2.png" width="500">
+<img src="2.png" width="500">
 
 <br><br>
 
@@ -38,7 +38,7 @@
 
 ### 2-1. 배포를 통해 확인하는 파드(Pod)
 
-<img src="../../OneDrive/사진/스크린샷/2.1/3.png" width="500">
+<img src="3.png" width="500">
 
 * 마스터 노드(m-k8s)에서 워커 노드들에게 nginx 애플리케이션을 설치하도록 명령을 보내는 작업을 통해 애플리케이션 배포가 진행.
 
@@ -49,7 +49,7 @@
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/2.1/4.png" width="500">
+<img src="4.png" width="500">
 
 * 파드는 일반적으로 관련 있는 기능을 가진 하나 이상의 컨테이너들이 결합된 쿠버네티스의 작업 단위. 
 * 이 컨테이너들은 동일한 네트워크 및 리소스 네임스페이스를 공유하며, 노드의 파일 시스템을 공유할 수 있는 볼륨을 사용할 수 있다.
@@ -73,7 +73,7 @@ kubectl get pod
 
 ### 2-2. 파드를 외부에서도 접속하게 하는 서비스(Service)
 
-<img src="../../OneDrive/사진/스크린샷/2.2/5.png" width="500">
+<img src="5.png" width="500">
 
 * 파드는 기본적으로 클러스터 내부에서만 접근 가능. 이는 쿠버네티스의 네트워크 보안 모델에 따라 파드가 격리된 실행 환경을 가지기 때문이다.
 
@@ -83,7 +83,7 @@ kubectl get pod
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/2.2/7.png" width="500">
+<img src="7.png" width="500">
 
 * 쿠버네티스의 서비스는 파드의 집합에 대한 액세스를 제공하는 추상화된 개념. 
 * 서비스는 클러스터 내에서 실행 중인 파드를 추적하고, 파드의 변경 사항을 자동으로 감지하여 트래픽을 올바르게 라우팅한다.
@@ -98,7 +98,7 @@ kubectl get pod
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/2.2/8.png" width="500">
+<img src="8.png" width="500">
 
 <br><br>
 
@@ -115,13 +115,13 @@ kubectl get services
 
 <br>
 
-<img src="../../OneDrive/사진/스크린샷/2.3/13.png" width="500">
+<img src="13.png" width="500">
 
 * 디플로이먼트는 파드의 집합을 관리하고, 파드의 생명주기를 관리하는 쿠버네티스 오브젝트다. <br> 디플로이먼트를 통해 파드의 스케일링 및 업데이트를 관리하고, 파드의 복제본 수를 유지하여 애플리케이션의 가용성을 보장할 수 있다.
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/2.3/15.png" width="700">
+<img src="15.png" width="700">
 
 * `kubectl run`, `kubectl create`, `kubectl apply`는 쿠버네티스의 CLI 도구인 `kubectl`을 사용해 파드와 디플로이먼트를 관리하는 명령어.
 
@@ -131,7 +131,7 @@ kubectl get services
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/2.3/16.png" width="700">
+<img src="16.png" width="700">
 
 * 디플로이먼트는 `ReplicaSet`을 사용하여 파드의 복제본을 관리. <br> `ReplicaSet`은 디플로이먼트에 의해 관리되며, <br> 디플로이먼트의 주요 목표 중 하나는 이 ReplicaSet을 통해 파드의 수를 원하는 상태로 유지하는 것.
 
@@ -159,11 +159,7 @@ kubectl get pod
 
 * 이에 비해 'LoadBalancer'는 외부 로드밸런서를 사용하여 서비스를 노출시키는 타입이다. <br> 로드밸런서를 사용하여 트래픽을 쿠버네티스 서비스로 분산시킵니다. <br> 이 방식은 특정 노드의 IP를 직접 노출시키지 않기 때문에 보안성이 더욱 향상된다.
 
-<img src="../../OneDrive/사진/스크린샷/2.4/20.png" width="500">
-
-<br><br>
-
-<img src="../../OneDrive/사진/스크린샷/2.4/23.png" width="500">
+<img src="20.png" width="500">
 
 <br><br>
 
@@ -219,13 +215,13 @@ kubectl delete -f ~/_Lecture_k8s_starter.kit/ch2/2.4/metallb.yaml
 
 ### 3-1. 쿠버네티스 구성 요소 확인(+EKS, AKS, GKE 관리형 쿠버네티스)
 
-<img src="../../OneDrive/사진/스크린샷/3.1/28.png" width="500">
+<img src="28.png" width="500">
 
 <br><br>
 
 #### 구역을 나누는 네임스페이스
 
-<img src="../../OneDrive/사진/스크린샷/3.1/29.png" width="500">
+<img src="29.png" width="500">
 
 * 네임스페이스는 쿠버네티스 클러스터 내에서 `가상 클러스터`를 생성하는 데 사용되는 메커니즘이다. <br> 네임스페이스는 독립적인 공간을 제공하여, 각 공간에서의 리소스 사용량을 관리하거나 이름 충돌을 방지하게 한다.
 
@@ -241,11 +237,11 @@ kubectl delete -f ~/_Lecture_k8s_starter.kit/ch2/2.4/metallb.yaml
 
 ### 3-2. 쿠버네티스의 기본 철학
 
-<img src="../../OneDrive/사진/스크린샷/3.2/30.png" width="500">
+<img src="30.png" width="500">
 
 <br><br>
 
-<img src="../../OneDrive/사진/스크린샷/3.2/31.png" width="750">
+<img src="31.png" width="750">
 
 <br>
 
@@ -318,7 +314,7 @@ kubectl delete -f ~/_Lecture_k8s_starter.kit/ch2/2.4/metallb.yaml
 
 ### 3-3. 실제 쿠버네티스의 파드 배포 흐름
 
-<img src="../../OneDrive/사진/스크린샷/3.3/34.png" width="800">
+<img src="34.png" width="800">
 
 
 | 용어                   | 개념                                                                                                                                   |
@@ -343,13 +339,13 @@ kubectl delete -f ~/_Lecture_k8s_starter.kit/ch2/2.4/metallb.yaml
 
 ### 5-1. 쿠버네티스에서 오브젝트란
 
-<img src="../../OneDrive/사진/스크린샷/5.1/43.png" width="700">
+<img src="43.png" width="700">
 
 <br><br>
 
 ### 오브젝트는 추구하는 상태를 기술해 둔 것
 
-<img src="../../OneDrive/사진/스크린샷/5.1/45.png" width="700">
+<img src="45.png" width="700">
 
 * 추구하는 상태를 기술하는 것 == 오브젝트
 
@@ -369,22 +365,22 @@ kubectl edit deployment del-deploy
 <br>
 
 ### 파드
-<img src="../../OneDrive/사진/스크린샷/5.2/46.png" width="500">
+<img src="46.png" width="500">
 
 <br><br>
 
 ### 서비스
-<img src="../../OneDrive/사진/스크린샷/5.2/47.png" width="500">
+<img src="47.png" width="500">
 
 <br><br>
 
 ### 네임스페이스
-<img src="../../OneDrive/사진/스크린샷/5.2/48.png" width="500">
+<img src="48.png" width="500">
 
 <br><br>
 
 ### 볼륨
-<img src="../../OneDrive/사진/스크린샷/5.2/49.png" width="500">
+<img src="49.png" width="500">
 
 * 영속적인 데이터를 보존하기 위해 만들어짐
 
