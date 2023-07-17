@@ -15,7 +15,7 @@
 
 ### Cloud Service Type
 
-![img.png](img.png)
+![img.png](image/img.png)
 
 <br/>
 
@@ -158,11 +158,11 @@ Blob Storage는 이미지, 비디오, 문서, 로그 파일 등과 같은 다양
 
 <br/><br/>
 
-![img_1.png](img_1.png)
+![img_1.png](image/img_1.png)
 
 <br/>
 
-![img_2.png](img_2.png)
+![img_2.png](image/img_2.png)
 
 <br/><br/>
 
@@ -250,7 +250,7 @@ Docker 이미지를 저장하고 관리하는 서비스, Azure에서 호스팅 �
 
 ### 🎁 4-5. Kubernetes의 이해와 활용
 
-![img_3.png](img_3.png)
+![img_3.png](image/img_3.png)
 
 <br/>
 
