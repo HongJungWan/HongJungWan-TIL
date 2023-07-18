@@ -38,11 +38,26 @@
 
 | 제목                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Event Sourcing + CQRS + Saga Pattern - 찍먹](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Event_Sourcing_CQRS_Saga_Pattern.md)                                                                                                                           |
+| [Microservice와 Spring Cloud 개요 ✨...작성 예정]()                                                                                                                             |
+| [Service Discovery ✨...작성 예정]()                                                                                                                                         |
+| [Users Microservice 1️⃣ ✨...작성 예정]()                                                                                                                                    |
+| [Catalogs and Orders Microservice ✨...작성 예정]()                                                                                                                          |
+| [Users Microservice 2️⃣ ✨...작성 예정]()                                                                                                                                    |
+| [Configuration Service ✨...작성 예정]()                                                                                                                                     |
+| [Spring Cloud Bus ✨...작성 예정]()                                                                                                                                          |
+| [설정 정보의 암호화 처리 ✨...작성 예정]()                                                                                                                                             |
+| [Microservice간 통신 ✨...작성 예정]()                                                                                                                                          |
+| [데이터 동기화를 위한 Apache Kafka 1️⃣ ✨...작성 예정]()                                                                                                                              |
+| [데이터 동기화를 위한 Apache Kafka 2️⃣ ✨...작성 예정]()                                                                                                                              |
+| [애플리케이션 배포를 위한 컨테이너 가상화 ✨...작성 예정]()                                                                                                                                    |
+| [애플리케이션 배포 - Docker Container ✨...작성 예정]()                                                                                                                              |
+| 🐱‍💻                                                                                                                                                                   |
 | [Transaction & @Transactional 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Transaction_%40Transactional_%EC%B4%9D%EC%A0%95%EB%A6%AC.md)                 |
 | 🐱‍💻                                                                                                                                                                   |
 | [MVC, 웹 애플리케이션 이해](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MVC_%EC%9B%B9_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%EC%9D%B4%ED%95%B4.md) |
 | 🐱‍💻                                                                                                                                                                   |
-| [객체지향 생활체조](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%EC%83%9D%ED%99%9C%EC%B2%B4%EC%A1%B0.md)                                                                                                                                                           |
+| [객체지향 생활체조](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%EC%83%9D%ED%99%9C%EC%B2%B4%EC%A1%B0.md)                      |
 
 <br>
 
