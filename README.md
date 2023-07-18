@@ -39,7 +39,6 @@
 | 제목                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Event Sourcing + CQRS + Saga Pattern - 찍먹](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Event_Sourcing_CQRS_Saga_Pattern.md)                                                                                                                           |
-| [Microservice와 Spring Cloud 개요 ✨...작성 예정]()                                                                                                                             |
 | [Service Discovery ✨...작성 예정]()                                                                                                                                         |
 | [Users Microservice 1️⃣ ✨...작성 예정]()                                                                                                                                    |
 | [Catalogs and Orders Microservice ✨...작성 예정]()                                                                                                                          |
