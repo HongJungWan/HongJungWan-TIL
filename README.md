@@ -39,17 +39,7 @@
 | 제목                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Event Sourcing + CQRS + Saga Pattern - 찍먹](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Event_Sourcing_CQRS_Saga_Pattern.md)                               |
-| [Service Discovery ✨...작성 예정]()                                                                                                                                         |
-| [API Gateway Service ✨...작성 예정]()                                                                                                                                                |
-| [Users Microservice 1️⃣ ✨...작성 예정]()                                                                                                                                    |
-| [Catalogs and Orders Microservice ✨...작성 예정]()                                                                                                                          |
-| [Users Microservice 2️⃣ ✨...작성 예정]()                                                                                                                                    |
-| [Configuration Service ✨...작성 예정]()                                                                                                                                     |
-| [Spring Cloud Bus ✨...작성 예정]()                                                                                                                                          |
-| [설정 정보의 암호화 처리 ✨...작성 예정]()                                                                                                                                             |
-| [Microservice간 통신 ✨...작성 예정]()                                                                                                                                          |
-| [데이터 동기화를 위한 Apache Kafka 1️⃣ ✨...작성 예정]()                                                                                                                              |
-| [데이터 동기화를 위한 Apache Kafka 2️⃣ ✨...작성 예정]()                                                                                                                              |
+| [MSA 통신, RestTemplate 개요와 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MSA_%ED%86%B5%EC%8B%A0_RestTemplate_%EA%B0%9C%EC%9A%94%EC%99%80_%ED%99%9C%EC%9A%A9.md)                                                                                                                                         |
 | [애플리케이션 배포를 위한 컨테이너 가상화 ✨...작성 예정]()                                                                                                                                    |
 | [애플리케이션 배포 - Docker Container ✨...작성 예정]()                                                                                                                              |
 | 🐱‍💻                                                                                                                                                                   |
