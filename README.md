@@ -2,7 +2,7 @@
 
 <br>
 
-### ♻ 누구나 열심히 한다, 잘하자.
+### 🌱 TIL(Today I Learned)
 
 <br>
 
@@ -75,6 +75,6 @@
 | 제목           |
 |--------------|
 | [완전탐색(Exhaustive Search) 1️⃣](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89_1.md) |
-| [완전탐색(Exhaustive Search) 2️⃣]() |
+| [완전탐색(Exhaustive Search) 2️⃣](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89_2.md) |
 
 <br>
