@@ -31,7 +31,7 @@
 
 <br>
 
-<img src="image/msa_1.png">
+<img src="../image/msa_1.png">
 
 <br><br>
 
@@ -49,7 +49,7 @@
 
 <br><br>
 
-<img src="image/msa_2.png">
+<img src="../image/msa_2.png">
 
 <br><br><br>
 
@@ -83,11 +83,11 @@
 
 <br><br>
 
-<img src="image/msa_5.png">
+<img src="../image/msa_5.png">
 
 <br><br>
 
-<img src="image/msa_6.png">
+<img src="../image/msa_6.png">
 
 <br><br><br>
 
@@ -110,13 +110,13 @@
 
 <br><br>
 
-<img src="image/msa_7.png" height="110">
+<img src="../image/msa_7.png" height="110">
 
 <br><br>
 
 ### Choreography-based saga
 
-<img src="image/msa_8.png">
+<img src="../image/msa_8.png">
 
 1. 주문 서비스에서 주문 요청(Post)을 수신하고 PENDING 상태의 주문 생성
 2. 주문 생성 이벤트 전달

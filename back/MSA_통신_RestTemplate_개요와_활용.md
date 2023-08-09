@@ -55,7 +55,7 @@
 
 <br><br>
 
-<img src="image/resttemplate1.png" height="430">
+<img src="../image/resttemplate1.png" height="430">
 
 <br><br><br>
 
@@ -154,10 +154,10 @@ order_service:
 
 ### 성공 시,
 
-<img src="image/resttemplate2.png" height="430">
+<img src="../image/resttemplate2.png" height="430">
 
 <br><br>
 
-<img src="image/resttemplate3.png">
+<img src="../image/resttemplate3.png">
 
 <br><br><br>
