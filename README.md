@@ -6,6 +6,55 @@
 
 <br>
 
+## Back-End
+
+| 제목                                                                                                                                                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Event Sourcing + CQRS + Saga Pattern - 찍먹](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Event_Sourcing_CQRS_Saga_Pattern.md)                               |
+| [MSA 통신, RestTemplate 개요와 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MSA_%ED%86%B5%EC%8B%A0_RestTemplate_%EA%B0%9C%EC%9A%94%EC%99%80_%ED%99%9C%EC%9A%A9.md)                                                                                                                                         |
+| 🐱‍💻                                                                                                                                                                   |
+| [Transaction & @Transactional 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Transaction_%40Transactional_%EC%B4%9D%EC%A0%95%EB%A6%AC.md)                 |
+| 🐱‍💻                                                                                                                                                                   |
+| [MVC, 웹 애플리케이션 이해](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MVC_%EC%9B%B9_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%EC%9D%B4%ED%95%B4.md) |
+| 🐱‍💻                                                                                                                                                                   |
+| [객체지향 생활체조](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%EC%83%9D%ED%99%9C%EC%B2%B4%EC%A1%B0.md)                      |
+
+<br>
+
+## Test
+
+| 제목  |
+|-----|
+|[Junit5 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Junit5.md)|
+|[Mockito 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Mockito.md)|
+
+<br>
+
+## HTTP(Hypertext Transfer Protocol)
+
+| 제목                                                                                                                                                                                 |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [인터넷 네트워크](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%9D%B8%ED%84%B0%EB%84%B7_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)                                           |
+| [URI와 웹 브라우저 요청 흐름](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/URI%EC%99%80_%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%9A%94%EC%B2%AD_%ED%9D%90%EB%A6%84.md) |
+| [HTTP 기본](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/HTTP_%EA%B8%B0%EB%B3%B8.md)                                                                                     |
+| [HTTP 메서드](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/HTTP_%EB%A9%94%EC%84%9C%EB%93%9C.md)                                                                                                                                                                       |
+| [HTTP 메서드 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/HTTP_%EB%A9%94%EC%84%9C%EB%93%9C_%ED%99%9C%EC%9A%A9.md)                                                                                                                                                                    |
+| [HTTP 상태 코드](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C.md)                                                                                                                                                                     |
+
+<br>
+
+
+<br>
+
+## CS(Computer Science)
+
+| 제목           |
+|--------------|
+| [완전탐색(Exhaustive Search) 1️⃣](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89_1.md) |
+| [완전탐색(Exhaustive Search) 2️⃣](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89_2.md) |
+
+<br>
+
 ## Infra
 
 | 제목                                                                                                                                                                                   |
@@ -31,50 +80,5 @@
 | 🐱‍💻                                                                                                                          |
 | [AJAX(Asynchronous JavaScript and XML) - Axios #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/ajax_axios_%231.md) |
 | [ES6 첫 발자국 & Vue.js 한 숟가락](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/ES6_%EC%B2%AB_%EB%B0%9C%EC%9E%90%EA%B5%AD_Vue.js_%ED%95%9C_%EC%88%9F%EA%B0%80%EB%9D%BD.md)|
-
-<br>
-
-## Back-End
-
-| 제목                                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Event Sourcing + CQRS + Saga Pattern - 찍먹](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Event_Sourcing_CQRS_Saga_Pattern.md)                               |
-| [MSA 통신, RestTemplate 개요와 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MSA_%ED%86%B5%EC%8B%A0_RestTemplate_%EA%B0%9C%EC%9A%94%EC%99%80_%ED%99%9C%EC%9A%A9.md)                                                                                                                                         |
-| [애플리케이션 배포를 위한 컨테이너 가상화 ✨...작성 예정]()                                                                                                                                    |
-| [애플리케이션 배포 - Docker Container ✨...작성 예정]()                                                                                                                              |
-| 🐱‍💻                                                                                                                                                                   |
-| [Transaction & @Transactional 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Transaction_%40Transactional_%EC%B4%9D%EC%A0%95%EB%A6%AC.md)                 |
-| 🐱‍💻                                                                                                                                                                   |
-| [MVC, 웹 애플리케이션 이해](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/MVC_%EC%9B%B9_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%EC%9D%B4%ED%95%B4.md) |
-| 🐱‍💻                                                                                                                                                                   |
-| [객체지향 생활체조](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5_%EC%83%9D%ED%99%9C%EC%B2%B4%EC%A1%B0.md)                      |
-
-<br>
-
-## HTTP(Hypertext Transfer Protocol)
-
-| 제목                    |
-|-----------------------|
-| [인터넷 네트워크](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%9D%B8%ED%84%B0%EB%84%B7_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)          |
-| [URI와 웹 브라우저 요청 흐름](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/URI%EC%99%80_%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%9A%94%EC%B2%AD_%ED%9D%90%EB%A6%84.md) |
-| [HTTP 기본](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/HTTP_%EA%B8%B0%EB%B3%B8.md)           |
-
-<br>
-
-## Test
-
-| 제목  |
-|-----|
-|[Junit5 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Junit5.md)|
-|[Mockito 정리](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/Mockito.md)|
-
-<br>
-
-## CS(Computer Science)
-
-| 제목           |
-|--------------|
-| [완전탐색(Exhaustive Search) 1️⃣](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89_1.md) |
-| [완전탐색(Exhaustive Search) 2️⃣](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/%EC%99%84%EC%A0%84%ED%83%90%EC%83%89_2.md) |
 
 <br>
