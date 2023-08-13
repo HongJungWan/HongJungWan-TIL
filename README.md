@@ -42,14 +42,15 @@
 
 ## HTTP(Hypertext Transfer Protocol)
 
-| 제목                                                                                                                                                                                 |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [인터넷 네트워크](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/%EC%9D%B8%ED%84%B0%EB%84%B7_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)                                      |
+| 제목                                                                                                                                                                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [인터넷 네트워크](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/%EC%9D%B8%ED%84%B0%EB%84%B7_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)                                           |
 | [URI와 웹 브라우저 요청 흐름](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/URI%EC%99%80_%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%9A%94%EC%B2%AD_%ED%9D%90%EB%A6%84.md) |
 | [HTTP 기본](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/HTTP_%EA%B8%B0%EB%B3%B8.md)                                                                                     |
 | [HTTP 메서드](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/HTTP_%EB%A9%94%EC%84%9C%EB%93%9C.md)                                                                           |
 | [HTTP 메서드 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/HTTP_%EB%A9%94%EC%84%9C%EB%93%9C_%ED%99%9C%EC%9A%A9.md)                                                     |
 | [HTTP 상태 코드](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/HTTP_%EC%83%81%ED%83%9C_%EC%BD%94%EB%93%9C.md)                                                               |
+| [HTTP 헤더 - 일반 헤더](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/http/HTTP%20%ED%97%A4%EB%8D%94%20-%20%EC%9D%BC%EB%B0%98%20%ED%97%A4%EB%8D%94.md)                                                                                                                                                                     |
 
 <br>
 
