@@ -4,7 +4,7 @@
 
 ### HTTP API를 만들어보자.
 
----
+
 
 회원 정보 관리 API를 만들어보자.
 
@@ -104,7 +104,7 @@ TRACE : 대상 리소스에 대한 경로에 따라 메시지 루프백 테스�
 
 ## HTTP 메서드 - GET, POST
 
----
+
 
 ### GET
 
@@ -118,9 +118,9 @@ TRACE : 대상 리소스에 대한 경로에 따라 메시지 루프백 테스�
 
 ### 리소스 조회
 
-|메시지 전달|서버 도착|응답 데이터|
-|---|---|---|
-|<img src="https://velog.velcdn.com/images/daydream/post/07f887e3-8933-4c66-b647-b8cd90f862d4/image.png" width="300">|<img src="https://velog.velcdn.com/images/daydream/post/970921fb-393c-47f1-bd4a-77071fd27229/image.png" width="300">|<img src="https://velog.velcdn.com/images/daydream/post/a109348d-36b1-4da3-a100-2d739bbbec7b/image.png" width="300">|
+|메시지 전달|서버 도착| 응답 데이터                                                                                                                |
+|---|---|-----------------------------------------------------------------------------------------------------------------------|
+|<img src="https://velog.velcdn.com/images/daydream/post/07f887e3-8933-4c66-b647-b8cd90f862d4/image.png" width="300">|<img src="https://velog.velcdn.com/images/daydream/post/970921fb-393c-47f1-bd4a-77071fd27229/image.png" width="300">| <img src="https://velog.velcdn.com/images/daydream/post/a109348d-36b1-4da3-a100-2d739bbbec7b/image.png" width="300">  |
 
 <br>
 
@@ -155,9 +155,9 @@ TRACE : 대상 리소스에 대한 경로에 따라 메시지 루프백 테스�
 
 ### 리소스 등록
 
-|메시지 전달|신규 리소스 생성|응답 데이터|
-|---|---|---|
-|<img src="https://velog.velcdn.com/images/daydream/post/ceb9f981-dd9b-4ed3-bd72-e0c0b95dedff/image.png" width="350">|<img src="https://velog.velcdn.com/images/daydream/post/552541a9-4c1c-4eae-8e19-3950639cb762/image.png" width="350">|<img src="https://velog.velcdn.com/images/daydream/post/04d730c8-76f4-426b-83fd-34486beea6f9/image.png" width="350">|
+|메시지 전달|신규 리소스 생성| 응답 데이터                                                                                                               |
+|---|---|----------------------------------------------------------------------------------------------------------------------|
+|<img src="https://velog.velcdn.com/images/daydream/post/ceb9f981-dd9b-4ed3-bd72-e0c0b95dedff/image.png" width="350">|<img src="https://velog.velcdn.com/images/daydream/post/552541a9-4c1c-4eae-8e19-3950639cb762/image.png" width="350">| <img src="https://velog.velcdn.com/images/daydream/post/04d730c8-76f4-426b-83fd-34486beea6f9/image.png" width="350"> |
 
 <br>
 
@@ -222,7 +222,7 @@ TRACE : 대상 리소스에 대한 경로에 따라 메시지 루프백 테스�
 
 ## HTTP 메서드 - PUT, PATCH, DELETE
 
----
+
 
 ### PUT
 
@@ -239,9 +239,9 @@ TRACE : 대상 리소스에 대한 경로에 따라 메시지 루프백 테스�
 
 * 쉽게 이야기해서 내용을 덮어버린다.
 
-|||
-|---|---|
-|<img src="https://velog.velcdn.com/images/daydream/post/4f3ad48a-f7f8-452e-a152-245ac7bdcd31/image.png" width="450">|<img src="https://velog.velcdn.com/images/daydream/post/df7cf3df-65e9-468e-826f-282f1e42e14d/image.png" width="450">|
+||
+|---|
+|<img src="https://velog.velcdn.com/images/daydream/post/df7cf3df-65e9-468e-826f-282f1e42e14d/image.png" width="450"> <img src="https://velog.velcdn.com/images/daydream/post/df7cf3df-65e9-468e-826f-282f1e42e14d/image.png" width="450"> |
 
 <br><br>
 
@@ -253,9 +253,9 @@ PUT과 보내는 양식은 비슷하지만, 서버에서는 PATCH로 전송된 �
 
 <br>
 
-|||
-|---|---|
-|<img src="https://velog.velcdn.com/images/daydream/post/0ff12aa2-2f06-48d0-9dbb-f54524a0615c/image.png" width="450">|<img src="https://velog.velcdn.com/images/daydream/post/b75987b5-7b38-4193-971d-673516c1251c/image.png" width="450">|
+||
+|---|
+|<img src="https://velog.velcdn.com/images/daydream/post/b75987b5-7b38-4193-971d-673516c1251c/image.png" width="450"> <img src="https://velog.velcdn.com/images/daydream/post/b75987b5-7b38-4193-971d-673516c1251c/image.png" width="450"> |
 
 <br><br>
 
@@ -265,15 +265,15 @@ PUT과 보내는 양식은 비슷하지만, 서버에서는 PATCH로 전송된 �
 
 <br>
 
-|||
-|---|---|
+||
+|---|
 |<img src="https://velog.velcdn.com/images/daydream/post/99862b71-c932-43f3-8a44-38bf21747066/image.png" width="450">|<img src="https://velog.velcdn.com/images/daydream/post/be13e2ac-7188-4566-9429-dd8ccc559342/image.png" width="450">|
 
 <br><br>
 
 ## HTTP 메서드 속성
 
----
+
 
 ### 안전(Safe Methods)
 

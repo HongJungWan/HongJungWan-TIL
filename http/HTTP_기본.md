@@ -4,7 +4,7 @@
 
 ### HTTP(H<span style="color: grey">yper</span> T<span style="color: grey">ext</span> T<span style="color: grey">ransfer</span> P<span style="color: grey">rotocol</span>)
 
-문서 간에 링크를 통해 연결할 수 있는 프로토콜
+문서 간에 링크를 통해 연결할 수 있는 프로토콜 
 하지만, 이제는 문서뿐 아니라 `HTTP 메시지에 모든 것을 전송한다.`
 
 * **HTML, TEXT**
