@@ -1,4 +1,4 @@
-# Deep Dive SQL #개념
+# Deep Dive SQL 이론 #1
 
 <br>
 
