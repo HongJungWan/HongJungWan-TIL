@@ -25,8 +25,9 @@
 
 ## DB
 
-| 제목                   |
-|----------------------|
+| 제목                                                                                                    |
+|-------------------------------------------------------------------------------------------------------|
+| [Deep Dive SQL 이론 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/db/Deep_Dive_SQL_%EC%9D%B4%EB%A1%A0_%231.md)                                                                               |
 | [Deep Dive SQL #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/db/Deep_Dive_SQL_%231.md) |
 
 <br>
