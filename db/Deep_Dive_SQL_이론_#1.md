@@ -441,3 +441,5 @@ REVOKE ALL PRIVILEGES ON database_name.* FROM user_name;
 
 * 독립성, 편의성, 보안성
 * SQL을 저장하는 개념
+
+<br><br>
