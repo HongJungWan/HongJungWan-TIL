@@ -23,6 +23,16 @@
 
 <br>
 
+## JAVA
+
+| 제목              |
+|-----------------|
+| [Stream 소개](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/language/Stream_%EC%86%8C%EA%B0%9C.md)   |
+| [Stream 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/language/Stream_%ED%99%9C%EC%9A%A9.md)   |
+| [Stream 데이터 수집](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/language/Stream%EC%9C%BC%EB%A1%9C_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%88%98%EC%A7%91.md) |
+
+<br>
+
 ## DB
 
 | 제목                                                                                                                          |
