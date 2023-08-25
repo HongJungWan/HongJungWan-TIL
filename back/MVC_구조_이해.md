@@ -4,7 +4,7 @@
 
 ## 스프링 MVC 전체 구조
 
----
+
 
 이전 포스팅들에서 스프링을 사용하지 않고 직접 만든 `MVC 프레임워크`의 구조와 `spring MVC` 구조를 비교해 보면 거의 유사하다.
 
@@ -208,7 +208,7 @@ protected void render(ModelAndView mv, HttpServletRequest request,
 
 ## 핸들러 매핑과 핸들러 어댑터
 
----
+
 
 * 핸들러 매핑과 핸들러 어댑터에 대해 좀 더 자세히 알아보자.
 
@@ -343,7 +343,7 @@ public class OldController implements Controller {
 
 ## 뷰 리졸버
 
----
+
 
 View의 논리 이름을 물리 이름으로 완성시켜주는 뷰 리졸버를 `spring MVC`에서는 어떻게 만들어줄까 ❓
 
@@ -446,7 +446,7 @@ spring.mvc.view.suffix=.jsp
 
 ## 스프링 MVC - 시작하기
 
----
+
 
 스프링이 제공하는 컨트롤러는 어노테이션 기반으로 동작해서, 매우 유연하고 실용적이다. 과거에는 자바 언어에 어노테이션이 없기도 했고, 스프링도 처음부터 이런 유연한 컨트롤러를 제공한 것은 아니다
 
@@ -572,7 +572,7 @@ public class SpringMemberListControllerV1 {
 
 ## 스프링 MVC - 컨트롤러 통합
 
----
+
 
 `@RequestMapping`을 잘 보면 클래스 단위가 아니라 메서드 단위에 적용된 것을 확인할 수 있다. 따라서 컨트롤러 클래스를 유연하게 하나로 통합할 수 있다
 
@@ -642,7 +642,7 @@ public class SpringMemberControllerV2 {
 
 ## 스프링 MVC - 실용적인 방식
 
----
+
 
 <br/>
 
