@@ -37,6 +37,17 @@
 
 <br/>
 
+| Spring MVC 용어 | 설명                                                                                                 |
+|---------------|----------------------------------------------------------------------------------------------------|
+|       DispatcherServlet        | Spring MVC의 핵심 컴포넌트로, 모든 HTTP 요청을 처음으로 받아들이는 프론트 컨트롤러. <br><br> 요청을 해당 컨트롤러에게 전달하는 역할.             |
+|      HandlerMapping         | HTTP 요청을 처리할 컨트롤러 메소드와 연결하기 위해 요청의 정보를 기반으로 핸들러를 검색. <br><br> 즉, 어떤 컨트롤러가 어떤 요청을 처리할지 결정하는 매핑 역할.  |
+|       HandlerAdapter        | 핸들러 매핑을 통해 결정된 실제 핸들러(Controller의 메서드)를 실행하는 역할.                                                   |
+|       ModelAndView        | 컨트롤러의 처리 결과와 그 결과를 보여줄 뷰에 대한 정보를 담고 있는 객체. <br><br> 데이터와 뷰 이름을 함께 저장.                              |
+|        ViewResolver       | 	ModelAndView에서 지정된 뷰 이름을 실제로 렌더링 될 뷰 객체로 변환하는 역할. <br><br> 예를 들면, 뷰 이름을 기반으로 JSP 파일을 찾아내는 역할을 수행. |
+|View| 사용자에게 응답으로 보여줄 화면을 구성하는 역할. <br><br> 실제 렌더링을 담당하며, JSP나 Thymeleaf 등의 템플릿 엔진이 이에 해당.             |
+
+<br/>
+
 우선 스프링 MVC 구조에서 가장 중요한 `DispatcherServlet`의 일부 코드를 살펴보자.
 
 <br/><br/>
@@ -53,7 +64,9 @@
 
 <br/>
 
-스프링 부트 구동시 `DispatcherServlet`을 서블릿으로 자동 등록하며 **`모든 경로(urlPatterns="/")`** 에 대해 매핑한다. 즉, Spring MVC 역시 프론트 컨트롤러 패턴으로 구현되어 있고 `DispatcherServlet`이 프론트 컨트롤러의 역할을 한다.
+스프링 부트 구동시 `DispatcherServlet`을 서블릿으로 자동 등록하며 **`모든 경로(urlPatterns="/")`** 에 대해 매핑한다.
+
+즉, Spring MVC 역시 프론트 컨트롤러 패턴으로 구현되어 있고 `DispatcherServlet`이 프론트 컨트롤러의 역할을 한다.
 
 <br/>
 
@@ -66,7 +79,9 @@
 ### 요청 흐름
 
 ① 서블릿이 호출되면 `HttpServlet`이 제공하는 `service()` 메서드가 호출된다.
+
 ② 스프링 MVC는 `DispatcherServlet`의 부모인 `FrameworkServlet`에서 `service()`를 오버라이드 해뒀다.
+
 ③ `FrameworkServlet.service()`를 시작으로 여러 메서드가 실행되며 `DispatcherServlet.doDispatch()`가 호출된다.
 
 <br/>
@@ -177,7 +192,7 @@ protected void render(ModelAndView mv, HttpServletRequest request,
 
 6. **viewResolver 호출** : 뷰 리졸버를 찾아 실행한다.
 
-* JSP : `InternalResourceViewResolver`가 자등 등록되어 사용된다.
+* JSP : `InternalResourceViewResolver`가 자동 등록되어 사용된다.
 
 <br/>
 
@@ -193,7 +208,9 @@ protected void render(ModelAndView mv, HttpServletRequest request,
 
 ### 인터페이스 살펴보기
 
-`Spring MVC`는 `DispatcherServlet` 코드 변경을 하지 않고도 원하는 기능을 변경하거나 확장을 할 수 있다. 그리고 이런 인터페이스들을 구현해 `DispatcherServlet`에 등록하면 커스텀 컨트롤러를 만들 수도 있다.
+`Spring MVC`는 `DispatcherServlet` 코드 변경을 하지 않고도 원하는 기능을 변경하거나 확장을 할 수 있다. 
+
+그리고 이런 인터페이스들을 구현해 `DispatcherServlet`에 등록하면 커스텀 컨트롤러를 만들 수도 있다.
 
 <br/><br/>
 
@@ -255,7 +272,7 @@ public class OldController implements Controller {
 <br/>
 
 * `@Component` : 이 컨트롤러는 `/springmvc/old-controller`라는 이름의 스프링 빈으로 등록되었다.
-* Bean의 이름으로 **URL을 매핑**할 것이다
+* Bean의 이름으로 **URL을 매핑**할 것이다.
 * 콘솔에 `OldController.handleRequest`이 출력되면 성공이다.
 
 <br/><br/>
@@ -278,7 +295,9 @@ public class OldController implements Controller {
 
 <br/><br/>
 
-스프링은 이미 필요한 핸들러 매핑과 핸들러 어댑터를 대부분 구현해두었다. 개발자가 직접 핸들러 매핑과 핸들러 어댑터를 만드는 일은 거의 없다.
+스프링은 이미 필요한 핸들러 매핑과 핸들러 어댑터를 대부분 구현해두었다. 
+
+개발자가 직접 핸들러 매핑과 핸들러 어댑터를 만드는 일은 거의 없다.
 
 <br/><br/>
 
