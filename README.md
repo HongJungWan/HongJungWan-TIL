@@ -10,8 +10,10 @@
 
 | 제목                                                                                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Spring WebClient 개요](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Spring_WebClient.md)                                                                                                                                                                   |                                                                                                                                                                                      
-|🌱|
+| [Thread Local](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Thread_Local.md)                                                                                                                                                                          |
+| 🌱                                                                                                                                                                                        |
+| [Spring WebClient 개요](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Spring_WebClient.md)                                                                                  |                                                                                                                                                                                      
+| 🌱                                                                                                                                                                                        |
 | [Event Sourcing + CQRS + Saga Pattern - 찍먹](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Event_Sourcing_CQRS_Saga_Pattern.md)                                            |
 | [MSA 통신, RestTemplate 개요와 활용](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/MSA_%ED%86%B5%EC%8B%A0_RestTemplate_%EA%B0%9C%EC%9A%94%EC%99%80_%ED%99%9C%EC%9A%A9.md)        |
 | [MSA(Micro Service Architecture)를 이해하기 위한 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/MSA%EB%A5%BC_%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0_%EC%9C%84%ED%95%9C_%231.md) |
@@ -41,8 +43,7 @@
 | 제목                                                                                                                          |
 |-----------------------------------------------------------------------------------------------------------------------------|
 | [Deep Dive SQL 이론 #1](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/db/Deep_Dive_SQL_%EC%9D%B4%EB%A1%A0_%231.md) |
-| [Deep Dive SQL 이론 #2](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/db/Deep_Dive_SQL_%EC%9D%B4%EB%A1%A0_%232.md) |
-| [Deep Dive SQL 이론 #3](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/db/Deep_Dive_SQL_%EC%9D%B4%EB%A1%A0_%233.md)                                                                                                     |                                                                                                                          |
+| [Deep Dive SQL 이론 #2](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/db/Deep_Dive_SQL_%EC%9D%B4%EB%A1%A0_%232.md)                    |
 
 <br>
 
