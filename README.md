@@ -21,7 +21,7 @@
 | [Saga 패턴을 이용한 분산 트랜잭션 제어 - Choreography](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Saga_%ED%8C%A8%ED%84%B4%EC%9D%84_%EC%9D%B4%EC%9A%A9%ED%95%9C_%EB%B6%84%EC%82%B0_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98_%EC%A0%9C%EC%96%B4_Choreography.md) |
 ||
 ||
-| [Kafka 기본 구조]()                                                                                                                                                                                                                                                 |
+| [Kafka 기본 구조](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Kafka_%EA%B8%B0%EB%B3%B8_%EA%B5%AC%EC%A1%B0.md)                                                                                                                                                                                                                                                 |
 | [Kafka - Producer]()                                                                                                                                                                                                                                            |
 | [Kafka - Consumer]()                                                                                                                                                                                                                                            |
 | [Kafka, RabbitMQ, Redis Queue 특징]()                                                                                                                                                                                                                             |
