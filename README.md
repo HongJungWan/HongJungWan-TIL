@@ -22,7 +22,7 @@
 ||
 ||
 | [Kafka 기본 구조](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Kafka_%EA%B8%B0%EB%B3%B8_%EA%B5%AC%EC%A1%B0.md)                                                                                                                                                                                                                                                 |
-| [Kafka - Producer]()                                                                                                                                                                                                                                            |
+| [Kafka - Producer](https://github.com/HongJungWan/HongJungWan-TIL/blob/main/back/Kafka_Producer.md)                                                                                                                                                                                                                                            |
 | [Kafka - Consumer]()                                                                                                                                                                                                                                            |
 | [Kafka, RabbitMQ, Redis Queue 특징]()                                                                                                                                                                                                                             |
 ||
