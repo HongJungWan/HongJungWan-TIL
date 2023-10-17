@@ -77,12 +77,27 @@ methods: {
 
 <br>
 
+### JavaScript 예제
+
 ```vue
 computed: {
     welcomeMessage() {
         return `Hello, ${this.username}!`
     }
 }
+```
+
+<br>
+
+### Vue.js 예제
+
+```vue
+  <div class="post">
+      <div class="post-header">
+        <div class="profile" :style="{ backgroundImage : `url(${post.userImage})` }"></div>
+      </div>
+      <div class="post-body" :style="{ backgroundImage : `url(${post.postImage})` }"></div>
+  </div>
 ```
 
 <br><br>
@@ -201,3 +216,31 @@ promise.catch((error) => {
 
 
 `Promise.race 메서드`를 사용하면 여러 개의 `Promise` 중에서 가장 먼저 이행되거나 거부된 `Promise`의 결과를 받아올 수 있다.
+
+<br><br>
+
+### Vue.js 예제
+
+```vue
+axios.get(`https://codingapple1.github.io/vue/more${this.addPosts}.json`)
+.then( result => {
+  console.log(result.data);
+  this.posts.push(result.data);
+  this.addPosts++;
+})
+.catch(err => {
+  console.log(err);
+})
+```
+
+axios.get() 메서드는 Promise를 반환한다. 이 Promise는 비동기적으로 서버에서 응답을 받게 될 때 `fulfilled 상태`가 되거나, 오류가 발생했을 때 `rejected 상태`가 된다.
+
+<br>
+
+`.then() 메서드는 해당 Promise가 fulfilled 상태가 될 때 실행되는 콜백 함수를 받는다.` 여기서는 결과를 콘솔에 출력하고, 데이터를 posts 배열에 추가하며, addPosts 값을 증가시키는 작업을 수행하고 있다.
+
+<br>
+
+`.catch() 메서드는 Promise가 rejected 상태가 될 때 실행되는 콜백 함수를 받는다.` 이 예에서는 오류를 콘솔에 출력하고 있다.
+
+<br><br>
