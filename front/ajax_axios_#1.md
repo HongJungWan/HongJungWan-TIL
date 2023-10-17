@@ -1,4 +1,4 @@
-# AJAX(Asynchronous JavaScript and XML) - Axios #2
+# Axios #1
 
 <br>
 
